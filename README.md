@@ -1,5 +1,6 @@
 # AutoHotkeyScript
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?logo=gnu)](https://www.gnu.org/licenses/gpl-3.0)
 [![Windows 10](https://img.shields.io/badge/Windows-10-blue?logo=windows)](https://www.microsoft.com/)
 [![AutoHotkey v1.1.33.08](https://img.shields.io/badge/AutoHotkey-v1.1.33.08-green?logo=AutoHotkey)](https://www.autoitscript.com/site/)
 [![Visual Studio Code](https://img.shields.io/badge/Editor-Visual%20Studio%20Code-blue?logo=visual-studio-code)](https://code.visualstudio.com/)
