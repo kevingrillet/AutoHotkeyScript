@@ -37,5 +37,5 @@ It's a script that adds useful functionality to my keyboard.
 ### Add to startup
 
 - Press `Win + R`, type `shell:startup`, then select `OK`. This opens the Startup folder
-- Copy/Paste `AutoHotkeyScript.ahk` here
+- Copy/Paste `AutoHotkeyScript.ahk` shortcut here
 - Done
