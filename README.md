@@ -9,6 +9,8 @@ My AHK script used daily.
 
 ## Functionnalities
 
+### AutoHotkeyScript.ahk
+
 It's a script that adds useful functionality to my keyboard.
 
 |Control|Action|Source|
@@ -21,6 +23,31 @@ It's a script that adds useful functionality to my keyboard.
 |`Ctrl + Win + Enter`|:computer: Open Console [`cmd.exe`] as Administrator|[Reddit](https://www.reddit.com/r/AutoHotkey/comments/8s9pll/opening_cmdexe_with_administrator_privileges_win10/)|
 |`Win + Enter`|:computer: Open PowerShell [`powershell.exe`] as Administrator|[Reddit](https://www.reddit.com/r/AutoHotkey/comments/8s9pll/opening_cmdexe_with_administrator_privileges_win10/)|
 |`Win + ScrollLock`|:no_entry: Suspend AHK script|[AHK Doc](https://www.autohotkey.com/docs/commands/Suspend.htm)|
+|`Ctrl + F2`|:open_file_folder: Call RobocopyHelperGUI.ahk||
+
+### RobocopyHelperGUI.ahk
+
+> Robocopy allows you to sync two directories. This means either ensuring all files in the destination directory are in the source directory and no more.
+
+Using those options:
+
+> `/MIR` will replicate data copying all files in the source not in the destination and delete files in the destination not in the source. **Beware!**
+> `/W:0` Wait time between retries.
+> `/R:0` Number of retries on failed copies.
+
+Resulting in this command:
+
+> `robocopy /MIR C:\src C:\dst  /W:0 /R:0`
+
+- Src: location in clipboard
+- Dst: current explorer location
+
+Example:
+
+- Ctrl + C the folder you want to copy
+- Ctrl + F2 in the folder you want to move the content of the folder previously add to copy.
+- A popup will show to help view what you are doing.
+- OK will start the rebocopy.
 
 ## Install
 
