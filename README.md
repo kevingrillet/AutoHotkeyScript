@@ -32,7 +32,9 @@ It's a script that adds useful functionality to my keyboard.
 Using those options:
 
 > `/MIR` will replicate data copying all files in the source not in the destination and delete files in the destination not in the source. **Beware!**
+> 
 > `/W:0` Wait time between retries.
+> 
 > `/R:0` Number of retries on failed copies.
 
 Resulting in this command:
