@@ -35,10 +35,10 @@ Check:
 
 GuiOk:
 	if (RadioGroup = 1) {
-		Run, Robocopy "/MIR" "%Clipboard%" "%Path%" "/W:0" "/R:0"
+		Run, %comspec% /c Robocopy "%Clipboard%" "%Path%" /MIR /E /Z /R:5 /W:5 /TBD /V /MT:16 && pause
 	}
 	else {
-		Run, Robocopy "/Move" "%Clipboard%" "%Path%" "/W:0" "/R:0"
+		Run, %comspec% /c Robocopy "%Clipboard%" "%Path%" /Move /E /Z /R:5 /W:5 /TBD /V /MT:16 && pause
 	}
 	ExitApp
 
